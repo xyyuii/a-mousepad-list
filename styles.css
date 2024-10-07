@@ -1,5 +1,22 @@
-body {
-    margin: 0;
-    background: pink;
-    text-align: center;
+@font-face {
+    font-family: 'custom-font';
+    src: url(Fonts/Comfortaa-VariableFont_wght.ttf);
 }
+
+body {
+    background-image: url('img/background.jpg');
+    font-family: 'custom-font';
+    margin: 50px;
+    /* background: lavender; */
+    /* text-align: center; */
+}
+
+h1 {
+    color: white;
+    letter-spacing: 0px;
+    text-shadow: 0px 4px 0px rgb(179, 179, 179),
+    0px 0px 20px rgba(255, 255, 255, 0.75);
+    margin: 75px auto 0px;
+}
+
+
