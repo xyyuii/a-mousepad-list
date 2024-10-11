@@ -4,22 +4,25 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>a mousepad list.</title>
     <link rel="stylesheet" href="styles.css">
-    
+    <script src="https://cdn.jsdelivr.net/npm/ag-grid-community/dist/ag-grid-community.min.js"></script>
 </head>
 <body>
-    <h1>a mousepad list.</h1>
-    <p>just a mousepad list !</p>
-    <a href="explanation.html">confused ?</a>
+    <div class="topnav">
+        <a class="active" href="index.html">home</a>
+        <a href="explanation.html">confused?</a>
+        <a href="about.html">about</a>
+      </div>
+
+    <h1>"a mousepad list."</h1>
+    <p>it's just a mousepad list!</p>
     <br>
     <br>
     <hr>
     <br>
-    <div id="myGrid" class="ag-theme-quartz" style="height: 500px"></div>
+    <div id="myGrid" class="ag-theme-quartz"></div>
     
 </body>
 
-    <!-- Includes all JS & CSS for the JavaScript Data Grid -->
-    <script src="https://cdn.jsdelivr.net/npm/ag-grid-community/dist/ag-grid-community.min.js"></script>
-    <script src="main.js"></script>
+    <script src="src/main.js"></script>
 
 </html>
